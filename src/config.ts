@@ -25,60 +25,60 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'Varni Infoweb',
+  description: 'Web Designer - Graphic Designer - Web Hoster',
   author: {
-    name: 'Chris Tham',
-    twitter: '@chris1tham',
-    url: 'https://christham.net',
-    email: 'chris@christham.net',
-    summary: 'Outrageous actualiser.',
+    name: 'Ketan Dholakia',
+    twitter: '@viindia',
+    url: 'https://varniinfoweb.com',
+    email: 'info@varniinfoweb.com',
+    summary: 'Web - Graphic Designer',
   },
   org: {
-    name: 'Hello Tham',
-    twitter: '@hellothamcom',
-    url: 'https://hellotham.com',
-    email: 'info@hellotham.com',
+    name: 'Varni Infoweb',
+    twitter: '@viindia',
+    url: 'https://varniinfoweb.com',
+    email: 'info@varniinfoweb.com',
     summary:
-      'Hello Tham is a boutique management consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.',
+      'Ankleshwear - Bharuch - Panoli - Dahej - Jhagadia based Web Designer, Web Hoster, Graphic Designer',
   },
-  location: 'Rivendell, Middle Earth',
-  latlng: [-33.86785, 151.20732] as [number, number],
+  location: 'Ankleshwar, Gujarat, India',
+  latlng: [20.8509688, 73.7285654] as [number, number],
   repository: 'https://github.com/hellotham/hello-astro',
   social: [
     {
       name: 'Email',
-      link: 'mailto:info@hellothamcom',
+      link: 'mailto:info@varniinfoweb.com',
       icon: 'envelope',
     },
     {
       name: 'Phone',
-      link: '555-5555',
+      link: '91-8485940767',
       icon: 'telephone',
     },
     {
       name: 'LinkedIn',
-      link: 'https://www.linkedin.com/hellothamcom',
+      link: 'https://www.linkedin.com/',
       icon: 'linkedin',
     },
     {
       name: 'Facebook',
-      link: 'https://www.facebook.com/hellothamcom',
+      link: 'https://www.facebook.com/',
       icon: 'facebook',
     },
     {
       name: 'Instagram',
-      link: 'https://www.instagram.com/hellothamcom',
+      link: 'https://www.instagram.com/',
       icon: 'instagram',
     },
     {
       name: 'Twitter',
-      link: 'https://twitter.com/hellothamcom',
+      link: 'https://twitter.com/viwindia',
       icon: 'twitter',
     },
     {
       name: 'Github',
-      link: 'https://github.com/hellothamcom',
+      link: 'https://github.com/',
       icon: 'github',
     },
   ],
@@ -94,9 +94,12 @@ export const DefaultImage = '../images/undraw/undraw_my_feed.png'
 export const NavigationLinks = [
   { name: 'Home', href: '' },
   { name: 'About', href: 'about' },
+  { name: 'Graphic Design', href: 'graphicdesigning' },
+  { name: 'Web Design', href: 'webdesigning' },
+  { name: 'Portfolio', href: 'portfolio' },
   { name: 'Contact', href: 'contact' },
-  { name: 'Blog', href: 'blog' },
-  { name: 'Docs', href: 'doc/introduction' },
+  // { name: 'Blog', href: 'blog' },
+  // { name: 'Docs', href: 'doc/introduction' },
 ]
 
 export const CategoryDetail = [
