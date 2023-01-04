@@ -41,8 +41,6 @@
     "@astrojs/rss": "^1.0.2",
     "astro-icon": "^0.7.3",
     "astro-seo": "^0.6.0",
-    "esbuild-linux-64": "^0.15.18",
-    "esbuild-wasm": "^0.16.12",
     "hero-patterns": "^2.1.0",
     "katex": "^0.16.2",
     "leaflet": "^1.9.2",
